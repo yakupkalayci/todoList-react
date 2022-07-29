@@ -1,0 +1,36 @@
+.todoForm {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.todoInput {
+    width: 325px;
+    height: 35px;
+    background-color: #ee6a3e;
+    color: #fff;
+    padding: 1.5rem 1rem;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 4px;
+}
+
+.todoInput::placeholder {
+    color: #f6f2ec;
+}
+
+.toast {
+    background-color: rgb(255, 51, 51);
+    color: white;
+    padding: 1rem ;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
